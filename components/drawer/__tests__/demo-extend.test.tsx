@@ -8,7 +8,6 @@ jest.mock('rc-drawer', () => {
     const newProps = {
       ...props,
       open: true,
-      getContainer: false,
     };
     return <MockDrawer {...newProps} />;
   };
